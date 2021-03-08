@@ -1,0 +1,64 @@
+{
+  "name": "@toolz/use-constructor",
+  "version": "1.0.0",
+  "description": "A custom Hook that provides constructor-like functionality to functional React components",
+  "keywords": [
+    "Hooks",
+    "functional",
+    "ref",
+    "javascript",
+    "react",
+    "constructor",
+    "lifecycle",
+    "lifecycle methods"
+  ],
+  "homepage": "https://github.com/bytebodger/use-constructor",
+  "bugs": {
+    "email": "adam.davis@hashverify.com",
+    "url": "https://github.com/bytebodger/use-constructor/issues"
+  },
+  "main": "src/use.constructor.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.2",
+    "@toolz/allow": "^1.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!@toolz/use-constructor)/\" --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version",
+    "last 1 ie version"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bytebodger/use-constructor.git"
+  },
+  "author": "Adam Nathaniel Davis <adam.davis@hashverify.com> (https://writing.voyage)",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.12.13",
+    "babel-jest": "^26.6.3",
+    "jest-matcher-one-of": "^1.0.2"
+  }
+}
